@@ -5,3 +5,6 @@ visibility and followers on your account. The way this works is the bot will vis
 then it will go through some of the pictures on the tag and like them. After the photos are liked there is a chance that the other users whose photos were liked will visit your profile and either follow you, or like some of your photos. 
 
 
+# Things I Want To Add:
+ - A loading screen with a progress bar and a estimated time left until task is completed
+ - A UI with fields for entering tags
