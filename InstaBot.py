@@ -69,6 +69,6 @@ class InstagramBot:
 #                 time.sleep(2)
 
 
-austinIG = InstagramBot("instagram_username", "instagram_password")
-austinIG.login()
-austinIG.like_photo('fitness')
+myIG = InstagramBot("instagram_username", "instagram_password")
+myIG.login()
+myIG.like_photo('fitness')
