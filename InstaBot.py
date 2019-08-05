@@ -42,10 +42,10 @@ class InstagramBot:
         notif.click()
 
 
-#     def like_photo(self, hashtag):
-#         driver = self.driver
-#         driver.get("https://www.instagram.com/explore/tags/" + hashtag + "/")
-#         time.sleep(3)
+    def like_photo(self, hashtag):
+        driver = self.driver
+        driver.get("https://www.instagram.com/explore/tags/" + hashtag + "/")
+        time.sleep(3)
 #         # Bot simulates scrolling through the webpage
 #         for i in range (1, 3):
 #             driver.execute_script("window.scrollTo(0, document.body.scrollHeight")
