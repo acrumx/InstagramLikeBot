@@ -34,6 +34,10 @@ class InstagramBot:
         password_elem.clear()
         password_elem.send_keys(self.password)
         password_elem.send_keys(Keys.RETURN)
+        time.sleep(8)
+        notif = driver.find_element_by_xpath("/html/body/div[3]/div/div/div[3]/button[2]")
+        time.sleep(8)
+        notif.click()
 
 
     def like_photo(self, hashtag):
@@ -63,6 +67,6 @@ class InstagramBot:
                 time.sleep(2)
 
 
-austinIG = InstagramBot("austintylerx", "HyperCrusenjU48!2#")
+austinIG = InstagramBot("instagram_username", "instagram_password")
 austinIG.login()
-austinIG.like_photo('gayboy')
+austinIG.like_photo('fitness')
