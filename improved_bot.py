@@ -9,10 +9,10 @@ login = browser.find_element_by_link_text('Log in')
 login.click()
 
 username = browser.find_element_by_xpath('/html/body/span/section/main/div/article/div/div[1]/div/form/div[2]/div/label/input')
-username.send_keys('austintylerx')
+username.send_keys('username')
 
 password = browser.find_element_by_xpath('/html/body/span/section/main/div/article/div/div[1]/div/form/div[3]/div/label/input')
-password.send_keys('HyperCrusenjU48!2#')
+password.send_keys('password')
 password.send_keys(Keys.ENTER)
 
 not_now = browser.find_element_by_xpath('/html/body/div[3]/div/div/div[3]/button[2]')
