@@ -4,6 +4,7 @@ This Instagram Bot will like the posts under a hashtag of your choice which will
 visibility and followers on your account. The way this works is the bot will visit a page of a hashtag of your choice (recommended to be a tag that's relevant to your niche), 
 then it will go through some of the pictures on the tag and like them. After the photos are liked there is a chance that the other users whose photos were liked will visit your profile and either follow you, or like some of your photos. 
 
+How To Make It Work: (COMING SOON)
 
 # Things I Want To Add:
  - A loading screen with a progress bar and a estimated time left until task is completed
